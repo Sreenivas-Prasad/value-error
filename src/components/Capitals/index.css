@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.capital-bg {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #f8fafc;
+  padding: 30px;
+  border-radius: 9px;
+}
+
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+
+.two-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.select {
+  border: solid 1px #cbd2d9;
+  padding: 12px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.optionn {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 600;
+  outline: none;
+}
+
+.para {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.para2 {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .select {
+    width: 215px;
+  }
+  .optionn {
+    font-size: 18px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .para2 {
+    font-size: 29px;
+  }
+}
